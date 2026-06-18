@@ -64,10 +64,10 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
     },
     {
-      id: 'foo_BaiDu',
-      name: 'BaiDu',
+      id: 'foo_siqing',
+      name: 'Ai笔记',
       method: 'GET',
-      target: 'https://www.baidu.com',
+      target: 'https://siqing.my-place.us',
       timeout: 10000,
     },
     {
@@ -75,6 +75,13 @@ const workerConfig: WorkerConfig = {
       name: 'Translation',
       method: 'GET',
       target: 'https://lan-trust.com/',
+      timeout: 10000,
+    },
+    {
+      id: 'foo_BaiDu',
+      name: 'BaiDu',
+      method: 'GET',
+      target: 'https://www.baidu.com',
       timeout: 10000,
     },
   ],
